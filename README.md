@@ -231,9 +231,35 @@ This project is created for educational and portfolio purposes.
 
 ⭐ **If you found this helpful, please give it a star!**
 
-## 📸 Sample Report Screenshot
-
-![Test Report](https://via.placeholder.com/800x400?text=ExtentReports+Dashboard)
-
-*Professional HTML reports with pass/fail statistics, execution timeline, and detailed logs*
+## 📊 Sample Test Execution Results
 ```
+✅ Test Run Summary: 7/7 Passing (100%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 Feature: Login Functionality
+   ✓ Successful login with valid credentials
+   ✓ Failed login with invalid credentials
+   ✓ Failed login with locked out user
+   Status: 3/3 passed
+
+🛒 Feature: Shopping Cart
+   ✓ Add single item to cart
+   ✓ Add multiple items to cart
+   ✓ Verify cart page navigation
+   ✓ Verify cart contains added items
+   Status: 4/4 passed
+
+⏱️  Total Execution Time: ~45 seconds
+📅 Environment: Chrome 141 | Windows 11
+🎯 Pass Rate: 100%
+```
+
+### ExtentReports Dashboard Features:
+- 📊 Interactive pie charts showing pass/fail distribution
+- 📈 Timeline view of test execution
+- ✅ Step-by-step logs with Given-When-Then breakdown
+- 📷 Automatic screenshot capture on failures
+- 🏷️ Tag-based test filtering (smoke, cart, positive, negative)
+- 💻 System information (OS, Browser, .NET version)
+- ⚡ Individual test duration metrics
+
+**To view the report:** Run `dotnet test` and open `ECommerceTests/bin/Debug/net10.0/Reports/TestReport.html` in your browser.
