@@ -1,0 +1,28 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# Test Results
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+# NuGet
+*.nupkg
+packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reports (optional - remove # if you don't want reports in repo)
+# Reports/
+# Screenshots/
