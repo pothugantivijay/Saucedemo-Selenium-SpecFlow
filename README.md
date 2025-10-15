@@ -213,11 +213,11 @@ _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
 ## 👨‍💻 Author
 
 **Vijay**
-- 🎓 MS Information Systems @ Northeastern University (Expected May 2025)
+- 🎓 MS Information Systems @ Northeastern University (May 2025)
 - 💼 Software Engineering Trainee @ Wipro
 - 🔧 Skills: Java, Spring Boot, Selenium, C#, Python
-- 🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)
-- 📧 Email: your.email@example.com
+- 🔗 [LinkedIn](https://linkedin.com/in/vijayramaraopothuganti)
+- 📧 Email: pothuganti.v@northeastern.edu
 
 ## 🤝 Contributing
 
